@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" style="background-color:hsl(172, 70%, 44%);" href="home.html">Latitude</a>
+            <button class="navbar-toggler border border-white" type="button" data-toggle="collapse"
+                data-target="#navbarDropDown" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarDropDown">
+                <a class="navbar-brand" href="#"></a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDwopDownManuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Plots</a>
+                        <select class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="visualization-1.html">Vs Max Temperature</a>
+                            <a class="dropdown-item" href="visualization-2.html"> Vs Humidity</a>
+                            <a class="dropdown-item" href="visualization-3.html">Vs Cloudiness</a>
+                            <a class="dropdown-item" href="visualization-4.html">Vs Wind Speed</a>
+                        </select>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparison.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col col-12 divbdy">
+                <div class="box" style="background-color: white"></div>
+                <br>
+                <h1>Comparison: Latitude vs X</h1>
+                <hr>
+                <p>Click any plot to get a better picture of any visualization</p>
+                <div class='row'>
+                    <div class="col col-12 col-md-6 col-sm-1">
+                        <h3>Vs. Max Temperature</h3>
+                        <hr>
+                        <a href="visualization-1.html"><img src="Assets/fig1.png.png"
+                                alt="Latitude vs. Temperature"></a>
+                    </div>
+                    <br>
+                    <div class="col col-12 col-md-6">
+                        <h3>Vs. Humidity</h3>
+                        <hr>
+                        <a href="visualization-2.html"><img src="Assets/fig2.png.png" alt="Latitude vs. Humidity"></a>
+                    </div>
+                    <br>
+                    <div class="col col-12 col-md-6">
+                        <h3>Vs. Cloudiness</h3>
+                        <a href="visualization-3.html"><img src="Assets/fig3.png.png" alt="Latitude vs. Cloudiness"></a>
+                    </div>
+                    <br>
+                    <div class="col col-12 col-md-6">
+                        <h3>Vs. Wind Speed</h3>
+                        <a href="visualization-4.html"><img src="Assets/fig4.png.png" alt="Latitude vs. Wind Speed"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div>
+        <div class="row">
+            <div class="col col-12 divbtm"></div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>

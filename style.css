@@ -21,13 +21,13 @@
     background-color:#E7E7E7!important; 
   }
   .dropdown-item{
-    color: #6D8092 !important; 
+    color: white !important; 
   }
   .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
     background-color:#E7E7E7 !important; 
   }
   a{
-    color: #6D8092;
+    color: white;
     font-size: 15px; 
   }
   .nav-link:hover{
@@ -35,7 +35,7 @@
    }
   
   .navbar-brand:hover{
-  color: rgb(175, 175, 175) !important;
+  color: white !important;
   }
 
   img{
@@ -60,7 +60,7 @@
   }
 
   p{
-  color: #6D8092;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px; 
   }
@@ -76,26 +76,13 @@
     font-size: 15px; 
     border-top-color: white !important; 
   }
-  footer{
-  background-color: #666666; 
-  border-top-style: solid; 
-  border-top-width: 5px; 
-  border-top-color: #0BADA6;
-  color: white; 
-  min-height: 55px; 
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px; 
-  text-align: center; 
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding-top: 15px; 
-  }
 
   @media(max-width: 992px){
   .navbar-expand-lg{
   background-color: #0BADA6 !important;
+  }
+  p{
+    color: black;
   }
   .navbar{
     max-height: none; 
@@ -106,7 +93,8 @@
     background-color: white;  
   }
   .navbar-brand{
-    padding: 10px !important; 
+    padding: 10px !important;
+    color: white;
   }
   
   button{
