@@ -12,7 +12,8 @@
 <body>
     <div class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" style="background-color:hsl(172, 70%, 44%);" href="index.html">Latitude</a>
+            <a class="navbar-brand" style="background-color:hsl(172, 70%, 44%); color:white"
+                href="index.html">Latitude</a>
             <button class="navbar-toggler border border-white" type="button" data-toggle="collapse"
                 data-target="#navbarDropDown" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -24,12 +25,12 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDwopDownManuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">Plots</a>
-                        <select class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="visualization-1.html">Vs Max Temperature</a>
                             <a class="dropdown-item" href="visualization-2.html"> Vs Humidity</a>
                             <a class="dropdown-item" href="visualization-3.html">Vs Cloudiness</a>
                             <a class="dropdown-item" href="visualization-4.html">Vs Wind Speed</a>
-                        </select>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="comparison.html">Comparison</a>
@@ -41,50 +42,39 @@
                 </ul>
             </div>
         </nav>
-    </div>
-    <div class="container">
-        <br>
-        <div class="row">
-            <div class="col col-12 divbdy">
-                <div class="box" style="background-color: white"></div>
-                <br>
-                <h1>Comparison: Latitude vs X</h1>
-                <hr>
-                <p>Click any plot to get a better picture of any visualization</p>
-                <div class='row'>
-                    <div class="col col-12 col-md-6 col-sm-1">
-                        <h3>Vs. Max Temperature</h3>
-                        <hr>
-                        <a href="visualization-1.html"><img src="Assets/fig1.png.png"
-                                alt="Latitude vs. Temperature"></a>
-                    </div>
-                    <br>
-                    <div class="col col-12 col-md-6">
-                        <h3>Vs. Humidity</h3>
-                        <hr>
-                        <a href="visualization-2.html"><img src="Assets/fig2.png.png" alt="Latitude vs. Humidity"></a>
-                    </div>
-                    <br>
-                    <div class="col col-12 col-md-6">
-                        <h3>Vs. Cloudiness</h3>
-                        <a href="visualization-3.html"><img src="Assets/fig3.png.png" alt="Latitude vs. Cloudiness"></a>
-                    </div>
-                    <br>
-                    <div class="col col-12 col-md-6">
-                        <h3>Vs. Wind Speed</h3>
-                        <a href="visualization-4.html"><img src="Assets/fig4.png.png" alt="Latitude vs. Wind Speed"></a>
+        <h1>Comparison: Latitude vs X</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-12 col-md-8" divbdy>
+                        <div class="box" style="background-color: white">
+                            <p>The following table includes all of the data used for plotting during this project.</p>
+                        </div>
                     </div>
                 </div>
+            </div>        
+            <div class='row'>
+                <div class="col col-12 col-md-6 col-sm-1">
+                    <h3>Vs. Max Temperature</h3>
+                    <hr>
+                    <a href="visualization-1.html"><img src="Assets/fig1.png.png" alt="Latitude vs. Temperature"></a>
+                </div>
+                <br>
+                <div class="col col-12 col-md-6">
+                    <h3>Vs. Humidity</h3>
+                    <hr>
+                    <a href="visualization-2.html"><img src="Assets/fig2.png.png" alt="Latitude vs. Humidity"></a>
+                </div>
+                <br>
+                <div class="col col-12 col-md-6">
+                    <h3>Vs. Cloudiness</h3>
+                    <a href="visualization-3.html"><img src="Assets/fig3.png.png" alt="Latitude vs. Cloudiness"></a>
+                </div>
+                <br>
+                <div class="col col-12 col-md-6">
+                    <h3>Vs. Wind Speed</h3>
+                    <a href="visualization-4.html"><img src="Assets/fig4.png.png" alt="Latitude vs. Wind Speed"></a>
+                </div>
             </div>
-        </div>
-    </div>
-    <br>
-    <div>
-        <div class="row">
-            <div class="col col-12 divbtm"></div>
-        </div>
-    </div>
-    </div>
     </div>
 </body>
 
