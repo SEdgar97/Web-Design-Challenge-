@@ -101,7 +101,8 @@
   }
   .navbar div{
     margin: inherit; 
-    background-color: white;  
+    background-color: white;
+  }
     .navbar{
       background-color: white; 
       font-size: 15px; 
@@ -139,6 +140,4 @@
   
     outline: 1px dotted;
     outline: 5px auto -webkit-focusring-color;
-    
-    }
   }
